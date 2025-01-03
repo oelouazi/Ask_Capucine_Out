@@ -41,3 +41,14 @@ body {
   border-radius: 8px;
   box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
 }
+
+.big-title {
+  font-size: 3rem; /* Adjust this value as needed */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden; /* Hides any overflow */
+  text-overflow: ellipsis; /* Adds "..." if the text overflows */
+  text-align: center;
+  color: #ff4081;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+}
